@@ -24,7 +24,8 @@ In this example, provided in the [pphpc.R](pphpc.R) script, [micompr] is used
 for comparing the outputs of two implementations of the [PPHPC] agent-based
 model. The compared output data is available at
 https://zenodo.org/record/46848. Uncompress the data to a local folder, and
-specify the folder in the [`dir_data`](https://github.com/fakenmc/micompr-examples/blob/master/pphpc.R#L5)
+specify the folder in the
+[`dir_data`](https://github.com/fakenmc/micompr-examples/blob/master/pphpc.R#L5)
 variable within the script.
 
 ### Monthly sunspots
@@ -37,13 +38,21 @@ from the more recent observations?_
 
 ### Saugeen river flow
 
-### PH2 database of dermoscopic images
+This example, provided in the [saugeen.R](saugeen.R) script, uses the Saugeen
+River daily flow data included in the [deseasonalize] [R] package. This data
+consists of a time series of the rivers’ daily flow (m<sup>3</sup>/s) from 1915
+to 1979. The example aims to answer the following question: __is there any
+statistical difference between the flow dynamics during the 1915–1944 and
+1950–1979 periods (perhaps due to climate change or some other factor)?__
+
+### PH<sup>2</sup> database of dermoscopic images
 
 
 ## License
 
 [MIT License](LICENSE)
 
+[deseasonalize]:https://cran.r-project.org/package=deseasonalize
 [micompr]:https://github.com/fakenmc/micompr
 [R]: https://www.r-project.org/
 [PPHPC]: https://github.com/fakenmc/pphpc
