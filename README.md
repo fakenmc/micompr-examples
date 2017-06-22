@@ -22,19 +22,25 @@ validation and model credibility
 
 In this example, provided in the [pphpc.R](pphpc.R) script, [micompr] is used
 for comparing the outputs of two implementations of the [PPHPC] agent-based
-model. The compared output data used available at
-https://zenodo.org/record/46848. Uncompress this data to a local folder, and
+model. The compared output data is available at
+https://zenodo.org/record/46848. Uncompress the data to a local folder, and
 specify the folder in the [`dir_data`](https://github.com/fakenmc/micompr-examples/blob/master/pphpc.R#L5)
 variable within the script.
 
 ### Monthly sunspots
+
+This example, provided in the [sunspot.R](sunspot.R) script, uses the monthly
+sunspot data included with [R], which contains the monthly numbers of sunspots
+from 1749 to the present day. The example aims to answer the following question:
+_Were the solar cycles during the 1749–1859 interval significantly different
+from the more recent observations?_
 
 ### Saugeen river flow
 
 ### PH2 database of dermoscopic images
 
 
-### License
+## License
 
 [MIT License](LICENSE)
 
