@@ -59,7 +59,7 @@ This example is provided in the [derma.R](derma.R) script. However, the
 following pre-processing of the images was performed (using [ImageMagick]
 command-line utilities under Linux) before comparing them with [micompr]:
 
-* Since each image comes in its own separate folder, we first copy the all the
+* Since each image comes in its own separate folder, we first copy all the
 images to the same folder:
 
 ```sh
@@ -78,7 +78,7 @@ done
 
 * These are 8-bit RGB color images, with a resolution of purportedly 768 × 560
 pixels. The following command shows this is not the case, and that the image
-size vary between 761 × 570 to 769 × 577:
+sizes vary between 761 × 570 and 769 × 577:
 
 ```sh
 # List all PH2 images
@@ -91,7 +91,7 @@ do
 done
 ```
 
-* As such, we resize all images to 760 × 570 prior before comparing the with
+* As such, we resize all images to 760 × 570 prior before comparing them with
 [micompr]:
 
 ```sh
